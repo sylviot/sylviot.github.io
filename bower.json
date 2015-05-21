@@ -1,0 +1,21 @@
+{
+  "name": "sylviot",
+  "version": "0.1.0",
+  "authors": [
+    "Sylvio Tavares <tavares.sylvio@gmail.com>"
+  ],
+  "description": "My personal blog",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "sylviot.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  }
+}
