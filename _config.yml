@@ -1,0 +1,19 @@
+# Site settings
+title: SylvioT
+description: Site do sylviot, programação, código, algoritmos e muita tecnologia.
+
+# User settings
+username: SylvioT
+user_description: O sylviot é um rapaz que gosta muito de código sem sentidos, algoritmos clássicos e sempre brincando com novas linguagens de programação!
+user_title: or @sylviot
+email: sylvio.tavares@hotmail.com
+
+facebook_username: sylviot
+github_username: sylviot
+twitter_username: sylviot
+
+# Google-analytics
+google-analytics:
+  id: "UA-35166528-1"
+
+exclude: ['package.json', 'src' , 'node_modules']

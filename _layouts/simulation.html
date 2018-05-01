@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <section id="about">
+
+      <div class="user-details">
+          <h3><a>< voltar</a> {{ page.title }} </h3>
+      </div>
+  
+      <div class="user-projects">
+        <div class="images-right">
+            <img alt="{{ page.title }}" src="{{ page.thumbnail | prepend: site.baseurl }}" style="max-height: 300px" />
+        </div>
+        
+        <div class="contents">
+          <strong>{{ page.description }}</strong>
+        </div>
+
+      </div>
+
+      {{ content }}
+
+      publicação: {{ page.date | date: "%d/%m/%Y" }} por {{ site.username }}
+
+    </section>
+    
+      
+      {% include footer.html %}
+      <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+  </body>

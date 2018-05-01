@@ -1,0 +1,13 @@
+<div class="user-details">
+  <h1> Simulações, Projetos e Experimentos </h1>
+</div>
+
+<div class="user-projects">
+{% for post in site.posts %}	
+    <div class="images-left">
+      <a href="{{ post.url }}">
+        <img alt="mountains" src="{{ "/assets/img/simulation/001.png" | prepend: site.baseurl }}" />
+      </a>
+    </div>
+{% endfor %}
+</div>
