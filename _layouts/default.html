@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-      {% include header.html %}
-      
-      <section id="about">
+{% include head.html %}
+
+<body>
+    {% include header.html %}
+
+    <section id="about">
         {% include about.html %}
-      </section>
-      
-      <!-- <section id="projects">
-        {% include projects.html %}
-      </section> -->
+    </section>
     
-      <!-- {{ content }} -->
-      
-      {% include footer.html %}
-      
-  </body>
+    <hr>
+<!-- 
+    <section id="projects">
+        <div class="user-details"> <h1> -= Simulação =- </h1> </div>
+
+        {% for post in site.categories['simulations'] %}
+            <div class="images-right">
+                <img alt="mountains" src="/{{ post.thumbnail }}" width="100%">
+                <h2 style="text-align: center;"><a href="{{ post.url }}" style="color:steelblue;text-decoration:none">{{ post.title }}</a></h2>
+            </div>
+        {% endfor %}
+    </section>
+ -->
+
+    <section id="projects">
+        <div class="user-details"> <h1> -= Postagem =- </h1> </div>
+
+        {% for post in site.categories['posts'] %}
+            <h1 style="border-bottom:1px solid #ccc">
+                <a href="{{ post.url }}" style="color:steelblue;text-decoration:none;margin:0px">{{ post.title }}</a>
+                <br>
+                <small style="font-size: 13px"><i class="fa fa-clock-o"></i> {{ post.date | date: "%d/%m/%Y" }} - {{ post.description }}</small>
+            </h1>
+        {% endfor %}
+    </section>
+
+    <hr>
+    
+    {% include footer.html %}
+    
+</body>
