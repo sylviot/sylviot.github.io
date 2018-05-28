@@ -9,15 +9,12 @@
         {{ page.title }}
     </h2>
 
-    <div class="user-projects">
-      
-      <div class="contents">
-        <strong>{{ page.description }}</strong>
-      </div>
+    <strong>{{ page.description }}</strong>
 
+    <div style="text-align: justify">
+      {{ content }}
     </div>
 
-    {{ content }}
 
     <small><i class="fa fa-clock-o"></i> postado {{ page.date | date: "%d/%m/%Y" }} por {{ site.username }}</small>
 
