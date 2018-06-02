@@ -17,3 +17,9 @@ google-analytics:
   id: "UA-35166528-1"
 
 exclude: ['package.json', 'src' , 'node_modules']
+
+defaults:
+  - scope:
+      path: "resources"
+    values:
+      image: true
