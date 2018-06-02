@@ -4,7 +4,7 @@ categories: posts
 title: "Iniciando o blog"
 description: "Essa é a primeira postagem é obrigatório para todo blogueiro ;)"
 date: 2018-05-27
-permalink: :categories/000-iniciando-blog.html
+permalink: :categories/000.html
 ---
 
 Quando você é da área de TI e o momento de *"Eu deveria criar um blog”* começa a surgir nos pensamentos e as suas primeira atitudes são achar que precisa criar tudo do zero (a chance de desistir é alta quando imagina o trabalho que terá), não ter tempo para fazer as publicações (coloca metas inviáveis) ou até mesmo desiste da ideia achando que já existem muitas publicações na internet.
