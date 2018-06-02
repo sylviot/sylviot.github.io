@@ -2,7 +2,7 @@
 layout: posts
 categories: posts
 title: "Iniciando o blog"
-description: "Essa é a primeira postagem é obrigatório para todo blogueiro ;)"
+description: "Essa primeira postagem é obrigatório para todo blogueiro ;)"
 date: 2018-05-27
 permalink: :categories/000.html
 ---
