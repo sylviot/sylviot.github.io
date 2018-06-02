@@ -33,7 +33,7 @@ a partícula saudável se torna contaminada.
 
 <i class="fa fa-github"></i> <a href="https://github.com/sylviot/eng-particle-contamination" target="_blank">  Contaminação de Partículas</a>
 <br>
-<i class="fa fa-cubes"></i> <a href="https://github.com/sylviot/eng-particle-contamination" target="_blank">  Veja simulação</a>
+<i class="fa fa-cubes"></i> <a href="https://sylviot.github.io/eng-particle-contamination" target="_blank">  Veja simulação</a>
 
 
 Obrigado por ler até aqui... :)
