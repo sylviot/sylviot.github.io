@@ -6,5 +6,13 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <meta property"og:url" content="http://sylviot.com/{{ page.url }}">
+  {% if page.thumbnail %}
+  <meta property="og:image" content="http://sylviot.com/resources/{{ page.thumbnail }}">
+  {% endif %}
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:site_name" content="sylviot.com">
+  <meta property="og:author" content="Sylvio Tavares">
+
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
 </head>
