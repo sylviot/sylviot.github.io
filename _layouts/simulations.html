@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+{% include head.html %}
+  
+<body>
+  <article id="about">
+    <h2 style="text-align:center">
+        <a href="/" style="position:absolute;left:5px;top:5px;font-size:13px;"><i class="fa fa-backward"></i> voltar</a>
+        {{ page.title }}
+    </h2>
+
+    <strong>{{ page.description }}</strong>
+
+    <div style="text-align: justify">
+      {{ content }}
+    </div>
+
+
+    <small><i class="fa fa-clock-o"></i> postado {{ page.date | date: "%d/%m/%Y" }} por {{ site.username }}</small>
+
+  </article>
+  
+    
+    {% include footer.html %}
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</body>
