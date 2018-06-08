@@ -9,7 +9,7 @@ permalink: :categories/000.html
 ---
 
 
-Simulação de contaminação de partículas, achei interessante reproduzir um ambiente de contaminação por aproximação de partículas, colocando algumas $$ N - 1 $$ partículas saudáveis e apenas uma partícula contaminada.
+Achei interessante reproduzir um ambiente de contaminação por aproximação de partículas, colocando algumas $$ N - 1 $$ partículas saudáveis e apenas uma partícula contaminada.
 
 Vamos precisar de um ambiente para a simulação, utilizaremos um retângulo de altura/largura de acordo com o dispositivo que esteja visualizando, onde vamos adicionar algumas partículas, sendo representada por um círculo de raio $$ r $$ com coloração diferenciada entre as saudáveis (esverdeada) e contaminadas (avermelhada). A movimentação das partículas são totalmente aleatórias e a contaminação ocorre quando uma partícula contaminada encosta em uma partícula saudável, só isso!
 
